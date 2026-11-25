@@ -35,21 +35,21 @@ export const empresa = {
     {
       nome: "Sayete do Nascimento Alves Sousa",
       cargo: "CEO e Design Visual",
-      foto: "/images/sayete.jpg",
+      foto: "/images/sayete.png",
       alt: "Foto de Sayete sousa",
       descricao: "Criativa e responsável pela identidade visual da empresa, buscando transmitir inovação e profissionalismo em cada projeto. "
     },
     {
       nome: "Isabelly de Holanda Silva Sousa",
       cargo: " CEO e Gerente de Projetos ",
-      foto: "/images/isabelly.jpg",
+      foto: "/images/isabelly.png",
       alt: "Foto de Isabelly silva sousa",
       descricao: "Organizada e dedicada à gestão da empresa, trabalha para garantir o planejamento e a qualidade dos projetos."
     },
     {
       nome: "Lucas Renan Dixon",
       cargo: "Engenheiro de software e Gerente de equipe",
-      foto: "/images/lucasdixon.jpg",
+      foto: "/images/lucas.png",
       alt: "Foto de Lucas Renan Dixon",
       descricao: "Responsável pela parte tecnológica, desenvolve sites e plataformas digitais com foco em funcionalidade e inovação."
     }
