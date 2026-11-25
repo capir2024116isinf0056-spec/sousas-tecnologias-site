@@ -4,21 +4,19 @@ export const empresa = {
   historia:
     "Em 2005 duas alunas da FATEC de SP , no mesmo curso e no mesmo Projeto Integrador, encontraram uma dor real: pequenas e médias empresas invisíveis no digital, perdendo clientes e dinheiro por não terem site ou plataforma. Elas não ignoraram — e assim em anos depois da conclusão da faculdade em 2011 nasceu a Sousas Tecnologias, uma software house que cria sites e plataformas para quem constrói o próprio negócio, unindo tecnologia com empatia para aliviar o estresse do mercado e multiplicar lucros. transformamos a sua presença digital em resultados. Sousas tecnologias representa não só a firmeza que temos mas a união das mentes que pensam em um mercado próspero e seguro.",
   missao:
-    "Desenvolver sites e plataformas digitais modernas, funcionais e acessíveis, transformando as necessidades dos clientes em soluções tecnológicas eficientes.ssss",
+    "Desenvolver sites e plataformas digitais modernas, funcionais e acessíveis, transformando as necessidades dos clientes em soluções tecnológicas eficientes.",
   visao:
     "Ser referência nacional em desenvolvimento de software sob medida até 2030, reconhecida pela excelência técnica, pela inovação constante e pelo impacto positivo gerado nos negócios que atendemos.",
   valores: [
     {
-      titulo: "Excelência técnica",
-      descricao: "Compromisso com código limpo, boas práticas de engenharia e entregas de alta qualidade."
-    },
+      titulo: "Segurança da informação",
+    descricao: "Proteção de dados e sistemas por meio de práticas seguras, garantindo a privacidade e a confiabilidade das soluções."    },
     {
-      titulo: "Transparência e parceria",
-      descricao: "Comunicação clara e honesta, tratando cada cliente como um parceiro de longo prazo."
-    },
+      titulo: "Colaboração e trabalho em equipe",
+    descricao: "Valorização da troca de conhecimentos e da cooperação para alcançar resultados eficientes e construir soluções melhores."    },
     {
-      titulo: "Inovação responsável",
-      descricao: "Adoção de novas tecnologias com foco em segurança, sustentabilidade e resultados reais."
+      titulo: "Sustentabilidade tecnológica",
+      descricao: "Utilização consciente dos recursos tecnológicos, buscando soluções eficientes que contribuam para um futuro sustentável."
     }
   ],
   publicoAlvo:
