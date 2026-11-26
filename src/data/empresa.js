@@ -52,6 +52,14 @@ export const empresa = {
       foto: "/images/lucas.png",
       alt: "Foto de Lucas Renan Dixon",
       descricao: "Responsável pela parte tecnológica, desenvolve sites e plataformas digitais com foco em funcionalidade e inovação."
+    },
+    {
+      nome: "Ana laura abreu",
+      cargo: "Engenheira de IA",
+      foto: "/images/ana.png",
+      alt: "Foto de Ana laura abreu",
+      descricao: "desenvolve, implementa e integra sistemas de inteligência artificial."
     }
+
   ]
 };
