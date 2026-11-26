@@ -1,35 +1,37 @@
 /* src/styles/global.css */
+/* importação da fonte Lobster do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :root {
   /* Paleta de Cores baseada no Logo */
-  --cor-primaria: #0d1520; /* Quase preto */
-  --cor-secundaria: #0058ec; /* Azul escuro do degradê (links e botões) */
-  --cor-destaque: #008ff7; /* Azul claro do degradê (decorativo) */
-  --cor-fundo:#ffff;
+  --cor-primaria: #7dc461; /* Quase preto */
+  --cor-secundaria:#52ff00 ; /* Azul escuro do degradê (links e botões) */
+  --cor-destaque: #053b11; /* Azul claro do degradê (decorativo) */
+  --cor-fundo:#ffffff;
   --cor-fundo-alt: #f8fafc;
   --cor-texto: #334155;
   --cor-texto-secundario: #64748b;
   --cor-texto-invertido: #ffffff;
   --cor-texto-invertido-suave: #cbd5e1;
-  --cor-borda: #e2e8f0;
+  --cor-borda: #95cf79;
   
   /* Variável para o Hero */
-  --cor-hero-fim: #00224d;
+  --cor-hero-fim: #043b07;
 
   /* Degradês Globais */
   --degrade-marca: linear-gradient(
-    90deg,
+    100deg,
     var(--cor-secundaria),
     var(--cor-destaque)
   );
   --degrade-hero: linear-gradient(
-    135deg,
+    280deg,
     var(--cor-primaria),
     var(--cor-hero-fim)
   );
 
   /* Variáveis Estruturais */
   --borda-raio: 8px;
-  --sombra-cartao: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  --sombra-cartao: 0 4px 6px -1px rgba(216, 26, 26, 0.05);
   --sombra-cartao-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   --espacamento-secao: 4rem;
 }
@@ -41,7 +43,7 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  font-family:arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, sans-serif;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
@@ -56,7 +58,7 @@ main {
 }
 
 h1, h2, h3 {
-  color: var(--cor-primaria);
+  color: #010e00;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
@@ -92,7 +94,7 @@ a:hover {
 
 .btn {
   display: inline-block;
-  background-color: var(--cor-secundaria);
+  background-color: #7cb279;
   color: var(--cor-texto-invertido);
   padding: 0.75rem 1.5rem;
   border-radius: var(--borda-raio);
